@@ -62,11 +62,18 @@ public class Array {
 	//	}
 		
 		//Altro metodo
-		String [][] classi = {
+		String[][] classi = {
 				{"Luca", "Anna", "Marco"}, 
 				{"Edoardo", "Leonardo","Antonio"}, 
 				{"Arianna","Paolo", "Andrea"},
 		}; 
+		
+		for(String[] classe: classi) {
+			System.out.println(); 
+			for(String studente: classe) {
+				System.out.println(studente + " "); 
+			}
+		}
 
  
 	}
